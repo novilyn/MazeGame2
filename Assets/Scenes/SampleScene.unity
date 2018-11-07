@@ -312,6 +312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
+  bulletSpawner: {fileID: 237555617}
+  bullet: {fileID: 1360709182612388, guid: 4cfdf518babbd2249a58f7a1cbea4c57, type: 2}
 --- !u!4 &1148951317
 Transform:
   m_ObjectHideFlags: 0
@@ -337,7 +339,6 @@ GameObject:
   - component: {fileID: 1634062437}
   - component: {fileID: 1634062436}
   - component: {fileID: 1634062435}
-  - component: {fileID: 1634062434}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -359,18 +360,6 @@ Transform:
   m_Father: {fileID: 1148951317}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1634062434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634062432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cad6349ea80e3e4f9ba27a10f1aedcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
 --- !u!65 &1634062435
 BoxCollider:
   m_ObjectHideFlags: 0
