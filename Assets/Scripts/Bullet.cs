@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 		transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 		timePassed += 1 * Time.deltaTime;
-		if(timePassed <= 5)
+		if(timePassed >= 5)
 		{
 			Destroy(this.gameObject);
 		}
