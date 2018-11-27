@@ -1,2 +1,2 @@
 # MazeGame2
-This game is a chasing game for Maze enthusiasts  
+This is a chasing game for Maze written for beginers
