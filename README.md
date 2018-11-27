@@ -1,2 +1,2 @@
 # MazeGame2
-game about maze
+This is a chasing game
