@@ -1,2 +1,2 @@
 # MazeGame2
-This is a chasing game for Maze
+This game is a chasing game for Maze enthusiasts  
